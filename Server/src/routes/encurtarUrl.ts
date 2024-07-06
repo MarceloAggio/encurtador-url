@@ -12,7 +12,6 @@ export async function createShortUrl(req: Request, res: Response) {
 
         // Gerar um slug único usando nanoid
         const slug = nanoid(8);
-
         // Enviando os valores para o banco de dados
         const newUrl = await prisma.url.create({
             data: {

@@ -15,7 +15,7 @@ function routes(app: Express) {
    app.get("/api/:slug", handleRedirect);
 
    // Rota para obter a quantidade de cliques
-   app.get("/api/:slug/clicks", handleGetClicks);
+   app.get("/api/clicks/:slug", handleGetClicks);
 
 }
 

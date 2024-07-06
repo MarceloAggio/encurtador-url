@@ -1,0 +1,24 @@
+.containerBuscarUrl {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 15px;
+    justify-content: center;
+}
+.tituloBuscarUrl{
+    font-size: 30px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+}
+.link{
+    text-decoration: underline;
+    color: black;
+    font-size: 18px;
+}
