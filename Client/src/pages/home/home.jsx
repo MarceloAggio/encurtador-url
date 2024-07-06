@@ -47,10 +47,11 @@ function Home() {
                      }
                  }}
                />
-               <Button type={"submit"} propsBtn={'Buscar'} />
+               <Button type={"submit"} propsBtn={'Gerar Link'} />
             </form>
-            {slug && (<h4>Link gerado: <button onClick={()=>navigator.clipboard.writeText(`http://localhost:4000/api/${slug}`)}>http://localhost:4000/api/{slug}</button></h4>)}
-            <a className="link" href="http://localhost:5173/buscarurl">Ver quantos acessos o link teve</a>
+            {slug && (<h4 className="link">Link gerado: <button className="buttonCopiar" onClick={()=>navigator.clipboard.writeText(`http://localhost:4000/api/${slug}`)}>http://localhost:4000/api/{slug}</button><p className="cliqueCopiar">(clique para copiar)</p></h4>)}
+            
+            <a className="link linkUrl" href="http://localhost:5173/buscarurl">Ver quantos acessos o link teve</a>
          </div>
       </>
    )

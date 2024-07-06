@@ -11,3 +11,24 @@
     font-weight: normal;
     font-family: Arial, Helvetica, sans-serif;
 }
+.link{
+    font-weight: normal;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.buttonCopiar{
+    background-color: #1f1f1f;
+    font-size: 15px;
+    border-radius: 8px;
+    padding: 5px;
+    color: #fff;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.linkUrl{
+    text-decoration: underline;
+}
+.cliqueCopiar{
+    text-align: center;
+}

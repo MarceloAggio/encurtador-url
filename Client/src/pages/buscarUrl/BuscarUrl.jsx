@@ -37,8 +37,8 @@ function BuscarUrl() {
                     />
                     <Button type={"submit"} propsBtn={'Buscar'} />
                 </form>
-                {click && (<h4>Clicks no link: {click}</h4>)}
-                <a className="link" href="http://localhost:5173/">Retornar a pagina principal</a>
+                {click && (<h4 className="clicksLink">Clicks no link: {click}</h4>)}
+                <a className="link linkUrl" href="http://localhost:5173/">Retornar a pagina principal</a>
             </div>
         </>
     )

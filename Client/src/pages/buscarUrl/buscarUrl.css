@@ -22,3 +22,11 @@ form{
     color: black;
     font-size: 18px;
 }
+.linkUrl{
+    text-decoration: underline;
+}
+.clicksLink{
+    font-weight: normal;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
